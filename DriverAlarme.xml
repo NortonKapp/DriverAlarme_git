@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/norton/Documentos/arquivos/ProjetosEstudos/Eletronica/DriverAlarme/DriverAlarme/DriverAlarme.kicad_sch</source>
+    <date>seg 15 ago 2022 22:22:55</date>
+    <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DriverAlarme.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>322cd788-2b71-4cc9-a032-87612b9daa0d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ca93bd2-f245-480f-ad2e-80b63e0f4aa7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Terminal_Fonte</value>
+      <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89cdba02-5565-4390-8fea-dd493933d44b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Terminal_Cerca</value>
+      <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81b0c8bd-0c21-4e34-a5d7-d96771f1286c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Terminal_Alarme</value>
+      <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0424430-0561-41c7-b06b-105e79f78ef2</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf53509d-5bbc-4cdc-b869-0f1ef241dc72</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98e84160-c035-40c1-86a0-e4fd765705ea</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22 K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53660342-aa71-4578-8092-0c08370eacfb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22 K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>998fdb4b-d8be-4087-99f0-991c567f712d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c38ba96-a2cd-4019-90a5-3f51478d32c6</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9489c7ff-ce23-4a58-b4c5-e3a0f50f25ac</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>200 Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3008f1ee-11c3-46e5-a646-dc772f4596dc</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>200 Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aeecd29-3502-41e6-808c-c73839797064</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8efd59a0-5f8a-4451-8963-a557ca8092b9</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>3K9</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acb53132-4e32-4265-a967-b60b1eeeb30e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6e7f536-4b3a-4407-affc-5743abd016e8</tstamps>
+    </comp>
+    <comp ref="RL1">
+      <value>ML2RC2</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G2RL</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</datasheet>
+      <libsource lib="Relay" part="G2RL-2-ASI-DC12" description="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 12V coil"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cba66a26-0bd3-4a33-80b7-1438123addc4</tstamps>
+    </comp>
+    <comp ref="RL2">
+      <value>ML2RC2</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G2RL</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</datasheet>
+      <libsource lib="Relay" part="G2RL-2-ASI-DC12" description="General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 12V coil"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="DriverAlarme.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1a9a1d9-63d3-45d9-801a-aa5714ce0af1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G2RL-2-ASI-DC12">
+      <description>General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 12V coil</description>
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Omron*G2RL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RL</field>
+        <field name="Value">G2RL-2-ASI-DC12</field>
+        <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G2RL</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/usr/share/kicad/symbols//Relay.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="7" name="Earth">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="RL1" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="RL2" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="RL2" pin="8" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="RL1" pin="3" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R3-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(R5-Pad1)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RL1" pin="8" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(RL1-Pad4)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RL1" pin="4" pintype="passive"/>
+      <node ref="RL2" pin="3" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(RL2-Pad4)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RL2" pin="4" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(RL1-Pad2)">
+      <node ref="RL1" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(RL1-Pad5)">
+      <node ref="RL1" pin="5" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(RL1-Pad6)">
+      <node ref="RL1" pin="6" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(RL1-Pad7)">
+      <node ref="RL1" pin="7" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(RL2-Pad2)">
+      <node ref="RL2" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(RL2-Pad5)">
+      <node ref="RL2" pin="5" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(RL2-Pad6)">
+      <node ref="RL2" pin="6" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(RL2-Pad7)">
+      <node ref="RL2" pin="7" pintype="passive"/>
+    </net>
+  </nets>
+</export>
